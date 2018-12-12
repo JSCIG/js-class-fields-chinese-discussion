@@ -1,3 +1,11 @@
+.vscode
+
+*.class
+*.out
+META-INF/
+bin/
+obj/
+
 # Logs
 logs
 *.log
