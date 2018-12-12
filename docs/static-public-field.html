@@ -1,21 +1,24 @@
+<script>
 class X {
 	static count = 0
 	static inc() {
 		++this.count
 	}
 	constructor() {
-		X.inc()
+		this.constructor.inc() // would be class.inc() in future proposal
 	}
 }
 
 class Y extends X {
 }
 
-new X()
-console.log(X.count, Y.count)
-new Y()
 console.log(X.count, Y.count)
 new X()
 console.log(X.count, Y.count)
 new Y()
 console.log(X.count, Y.count)
+new X()
+console.log(X.count, Y.count)
+new Y()
+console.log(X.count, Y.count)
+</script>
