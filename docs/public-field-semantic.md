@@ -1,3 +1,5 @@
+Semantic
+
 ```js
 class Counter {
 	count = 0
@@ -64,7 +66,7 @@ Why `[[Define]]`
 - Syntax cost!
 - Decorator!
 
-投票？
+Poll?
 
 - `[[Define]]`
 - `[[Set]]`
@@ -72,8 +74,8 @@ Why `[[Define]]`
 - `[[Define]]` Vue, React?
 - `[[Set]]` MobX, Polymer
 
-用`[[Define]]`
-但改个语法？
+`[[Define]]`
+But change syntax?
 
 `foo := 1`
 
@@ -91,21 +93,29 @@ Why `[[Define]]`
 - Syntax cost
 - Consistency
 
-投票？
+Poll?
 
-- `[[Define]]` 改语法
-- `[[Define]]` 不改
+- `[[Define]]`
+- `[[Define]]` change syntax
 - `[[Set]]`
 
-不要 public field！
+No public field!
+
+Classes 1.1
 
 Own property
 Definition
 
-基于 private 的语法糖
+Prototype-based
+Inheritence
+
+Possible Solution
+
+Syntax sugar of
+getter/setter
+wrapper for private
 
 - `expose #foo`
-- `expose foo`
 
 ```js
 #foo
@@ -119,6 +129,19 @@ OO 最佳实践
 
 - `expose readonly #foo`
 - `expose writable #foo`
+
+```js
+readonly foo = 'foo'
+writable bar = 'bar'
+```
+
+```js
+#foo = 'foo'
+get foo() { return this.#foo }
+#bar = 'bar'
+get bar() { return this.#bar }
+set bar(v) { this.#bar = v }
+```
 
 getter/setter is bad?
 
@@ -138,11 +161,136 @@ getter/setter is bad?
 封装 对象状态
 暴露 对象状态
 
+接口实现 class
+对象工厂 factory
+
 React
 
-投票？
+```js
+class Counter extends React.Component {
+	constructor {
+		super()
+		this.state = {count: 0}
+		this.inc = this.inc.bind(this)
+	}
+	inc() {
+		this.setState({count: this.state.count + 1})
+	}
+	render() {
+		return (
+			<div onClick={this.inc}>{this.state.count}</div>
+		)
+	}
+}
+```
 
-- `[[Define]]` 不改
-- `[[Define]]` 改语法
-- `[[Set]]`
-- 语义和语法都改：getter/setter语法糖
+```js
+class Counter extends React.Component {
+	state = {count: 0}
+	inc = () => {
+		this.setState({count: this.state.count + 1})
+	}
+	render() {
+		return (
+			<div onClick={this.inc}>{this.state.count}</div>
+		)
+	}
+}
+```
+
+```js
+React.defineComponent(({state}) => {
+	state.init({count: 0})
+\
+	function count() {
+		return state.current().count
+	}
+	function inc() {
+		state.next({count: count() + 1})
+	}
+\
+	return props => (
+			<div onClick={inc}>{count()}</div>
+		)
+})
+```
+
+```js
+React.defineComponent(({state}) => {
+	const [count, nextCount] = state.create(0)
+\
+	function inc() {
+		nextCount(count() + 1)
+	}
+\
+	return props => (
+			<div onClick={inc}>{count()}</div>
+		)
+})
+```
+
+```js
+class Counter extends React.Component {
+	constructor {
+		super()
+		this.state = {count: 0}
+		this.inc = this.inc.bind(this)
+	}
+	inc() {
+		this.setState({count: this.state.count + 1})
+	}
+	render() {
+		return (
+			<div onClick={this.inc}>{this.state.count}</div>
+		)
+	}
+}
+```
+
+其他采用getter/setter
+包装语法糖方案的语言
+
+C#
+Ruby
+Scala
+Kotlin
+Groovy
+Swift
+
+Все счастливые семьи похожи друг на друга
+каждая несчастливая семья несчастлива по-своему
+
+Happy families are all alike;
+every unhappy family is
+unhappy in its own way.
+
+Happy classes are all alike;
+every unhappy class is un-
+happy in its **own property**.
+
+基于 Getter/Setter 封装 private
+状态是过去20年各主流语言的 class
+中广泛采用并已经证明的**最佳实践**！
+
+JavaScript程序员少用 getter/setter
+绝不是因为我们不喜欢 getter/setter
+更不是因为 getter/setter is bad
+只是因为我们没有 private，状态
+最后还是要存到 own properties 上
+
+JavaScript 用 own properties
+保存实例的数据状态只是因为我们
+**别无选择**
+
+Most programming languages
+designers agree that,
+Getter/Setter is GOOD.
+
+Poll
+
+- `[[Define]]` own property
+- `[[Define]]` own property, change syntax
+- `[[Set]]` own property
+- getter/setter
+
+[Discussion and Poll]()

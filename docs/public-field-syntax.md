@@ -24,10 +24,11 @@ different semantics
 - WTF?
 
 - bad to novices,
-- also bad to programmers from other languages
+- also bad to programmers from other languages,
 - even worse to professional JS programmers
 
-- rarely use,
+- rarely known,
+- rarely used,
 - hard to remember
 
 Possible solution
@@ -57,7 +58,7 @@ different semantics
 
 - confusion,
 - surprise,
-- I am stupid!,
+- I'm stupid!,
 - You fool!
 
 No
@@ -76,6 +77,16 @@ Stop!
 
 Does any other programming
 languages have same issue?
+
+- C#, VB.NET
+- Java, Kotlin, Groovy
+- Python, Ruby, Coffee
+
+None
+
+Only one
+
+PHP
 
 Bad design **IS**
 just bad design.
@@ -148,6 +159,8 @@ class Test {
 }
 ```
 
-- error prone,
-- ask for more accidents of missing `this`
+- Error prone,
+- Ask for more accidents of missing `this`,
 - New linter rule is must to have
+
+[Discussion and Poll]()

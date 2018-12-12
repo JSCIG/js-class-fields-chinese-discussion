@@ -46,6 +46,8 @@ components is doomed
 Still good,
 isn't it?
 
+Private field
+
 ```js
 class Counter {
 	constructor() {
@@ -110,6 +112,14 @@ class Counter {
 }
 ```
 
+```js
+class Counter {
+	@deco #count = 0
+	get count() { return this.#count }
+	inc() { ++this.#count }
+}
+```
+
 `#`
 
 WTF!
@@ -134,14 +144,41 @@ class Counter {
 
 `#` is new `_`
 
-If you accept it,
+If you accept it
 it's just ok.
 
 Are you OK?
 
-- public      foo this. foo
-- convention _foo this._foo
-- private    #foo this.#foo
+```js
+class X {
+	#foo
+	#foo() {}
+	get #foo() {}
+	*#foo() {}
+	async *#foo() {}
+}
+```
+
+```js
+class X {
+	static #foo
+	static #foo() {}
+	static get #foo() {}
+	static *#foo() {}
+	static async *#foo() {}
+}
+```
+
+Are you OK?
+
+`#` is new `_`
+
+If you accept it
+it's just ok.
+
+- `public&nbsp; &nbsp;foo this.&nbsp;foo`
+- `pseudo&nbsp;  _foo this._foo`
+- `private #foo this.#foo`
 
 - public  fields
 - private fields
@@ -156,3 +193,5 @@ node --harmony
 
 - Good part?
 - Bad part?
+
+[Discussion and Poll]()

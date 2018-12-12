@@ -7,7 +7,7 @@ leading semicolon
 The leading semicolon rule is simple:
 when starting a statement in new line,
 insert leading semicolon iff the first
-character is `(`, `[`, `+`, `-`, `/` and ````.
+character is `(`, `[`, `+`, `-`, `/` and ```.
 
 Public field add several new ASI hazards:
 
@@ -37,10 +37,11 @@ already covered by leading semicolon rule.
 For the third, we need to add `*` case.
 It's ok, actually make the rule simpler:
 
-... iff the first character is
-- `([` (open parens)
+... iff the first character is:
+
+- `([ &nbsp;` (open parens)
 - `+-*/` (the notation of four arithmetic binary operators)
-- ```` (template string)
+- ``&nbsp; &nbsp;` (template string)
 
 
 ```js
@@ -90,9 +91,9 @@ Add keyword
 
 ```js
 class Test {
-	field out
-	field in
-	field set
+	field out = new WritableStream()
+	field in = new ReadableStream()
+	field set = new Set()
 	f() { ... }
 \
 	field #priv
@@ -101,18 +102,18 @@ class Test {
 
 ```js
 class Test {
-	own out
-	own in
-	own set
+	own out = new WritableStream()
+	own in = new ReadableStream()
+	own set = new Set()
 	f() { ... }
 }
 ```
 
 ```js
 class Test {
-	writable out
-	writable in
-	readonly set
+	readonly out = new WritableStream()
+	readonly in = new ReadableStream()
+	writable set = new Set()
 	f() { ... }
 }
 ```
@@ -136,9 +137,9 @@ require decorator
 
 ```js
 class Test {
-	@writable out
-	@writable in
-	@readonly set
+	@readonly out = new WritableStream()
+	@readonly in = new ReadableStream()
+	@writable set = new Set()
 	f() { ... }
 }
 ```
