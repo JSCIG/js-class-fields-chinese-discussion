@@ -4,6 +4,7 @@ fun main() {
 	println("$a $b")
 
 	println("${Instance.a} ${Instance.b}")
+
 	val inst = Instance()
 	println("${inst.a} ${inst.b}")
 }

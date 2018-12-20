@@ -16,7 +16,7 @@ class Static {
 }
 
 class Instance {
-	public int a = 3;
+	int a = 3;
 	// A field initializer cannot reference the non-static field, method, or property
-	// public int b = a * a;
+	// int b = a * a;
 }
