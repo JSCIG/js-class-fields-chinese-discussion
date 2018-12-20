@@ -8,7 +8,7 @@ class fields
 ## public issues
 
 - [语法二义性](?public-field-syntax)
-- [ASI Hazard](?public-field-syntax)
+- [ASI Hazard](?public-field-asi)
 - [Own Property定义与原型继承不相容](?public-field-semantic)
 - [static public fields 问题](?static-public-field)
 
