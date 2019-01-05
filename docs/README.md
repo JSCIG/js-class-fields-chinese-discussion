@@ -1,4 +1,7 @@
-# JavaScript的“class fields”提案中文讨论组
+Will class fields be the
+new Bad Part
+of JavaScript?
+
 
 ## class fields
 
