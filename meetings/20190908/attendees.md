@@ -8,12 +8,14 @@
 - 黄之昊（），哔哩哔哩
 - 谢然（@xieranmaya），大喵教育
 - 寸志（），饿了么
+- newshowing，华为
 - 李天佑（），Intel，Principal Engineer，Lead of Intel JavaScript Technology Center
 - 有知（），蚂蚁金服
 - 张强（），美团点评
 - 周爱民（@aimingoo），南潮，架构师，技术副总裁，《JavaScript语言精髓与编程实践》作者
 - 于航（），Paypal，FreeCodeCamp上海社区负责人
 - 谯洪敏（），趣头条
+- 罗冉（@Jocs），石墨文档
 - 郭达峰（@dfguo），Strikingly，联合创始人，CTO
 - 文东（），途虎养车
 - 魏晓军（），携程，高级研发经理
@@ -29,7 +31,6 @@
 - ？，阿里巴巴
 - ？，哔哩哔哩
 - ？，沪江
-- ？，华为
 - ？，腾讯
 - ？，阅文集团
 - ？，字节跳动
