@@ -8,6 +8,10 @@ echo a, ' ', b, "\n";
 class ClassConst {
 	const a = 2;
 	const b = a * a;
+
+	static $a = 2;
+	// PHP require initializer to be const expression, so this is invalid
+	// static $b = $a * $a;
 }
 
 echo ClassConst::a, ' ', ClassConst::b, "\n";
