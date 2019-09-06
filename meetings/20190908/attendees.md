@@ -12,7 +12,7 @@
 - 钟大兵（），沪江，前端架构师
 - 李天佑（），Intel，Principal Engineer，Lead of Intel JavaScript Technology Center
 - 有知（[@kuitos](https://github.com/kuitos)），蚂蚁金服，前端技术专家
-- 张强（），美团点评
+- 张强（[@madlordory](https://github.com/madlordory)），美团点评，资深前端架构师
 - 周爱民（@aimingoo），南潮，架构师，技术副总裁，《JavaScript语言精髓与编程实践》作者
 - 于航（），Paypal，FreeCodeCamp上海社区负责人
 - 谯洪敏（），趣头条
