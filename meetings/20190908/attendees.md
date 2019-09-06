@@ -10,7 +10,7 @@
 - 寸志（），饿了么
 - newshowing，华为
 - 李天佑（），Intel，Principal Engineer，Lead of Intel JavaScript Technology Center
-- 有知（），蚂蚁金服
+- 有知（[@kuitos](https://github.com/kuitos)），蚂蚁金服，前端技术专家
 - 张强（），美团点评
 - 周爱民（@aimingoo），南潮，架构师，技术副总裁，《JavaScript语言精髓与编程实践》作者
 - 于航（），Paypal，FreeCodeCamp上海社区负责人
