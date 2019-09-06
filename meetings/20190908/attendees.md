@@ -11,12 +11,12 @@
 - newshowing，华为
 - 钟大兵（），沪江，前端架构师
 - 李天佑（），Intel，Principal Engineer，Lead of Intel JavaScript Technology Center
-- 有知（），蚂蚁金服
+- 有知（[@kuitos](https://github.com/kuitos)），蚂蚁金服，前端技术专家
 - 张强（），美团点评
 - 周爱民（@aimingoo），南潮，架构师，技术副总裁，《JavaScript语言精髓与编程实践》作者
 - 于航（），Paypal，FreeCodeCamp上海社区负责人
 - 谯洪敏（），趣头条
-- 罗冉（@Jocs），石墨文档
+- 罗冉（[@Jocs](https://github.com/Jocs)），石墨文档前端工程师，开源软件 Mark Text 作者
 - 郭达峰（@dfguo），Strikingly，联合创始人，CTO
 - 文东（），途虎养车
 - 魏晓军（），携程，高级研发经理
