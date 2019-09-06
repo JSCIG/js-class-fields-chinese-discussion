@@ -21,7 +21,7 @@
 - 郭达峰（[@dfguo](https://github.com/dfguo)），Strikingly，联合创始人，CTO
 - 余泽江（），ThoughtWorks，前端工程师
 - 陈天宇（），ThoughtWorks，前端工程师
-- 文东（），途虎养车
+- 文东（[@Maxwin-z](https://github.com/Maxwin-z)），途虎养车，总监
 - 魏晓军（），携程，高级研发经理
 - 张鑫旭（[@zhangxinxu](https://github.com/zhangxinxu)），阅文集团
 - 张成荣（[@Smadey](https://github.com/smadey)），阅文集团
