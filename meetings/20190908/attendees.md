@@ -21,6 +21,7 @@
 - 文东（），途虎养车
 - 魏晓军（），携程，高级研发经理
 - 张鑫旭（@zhangxinxu），阅文集团
+- 张成荣（[@Smadey](https://github.com/smadey)），阅文集团
 - 陈旭（@rdkmaster），中兴通讯
 - 晋晓炜（@amio），字节跳动
 - 刘小杰（@jacksky007）
