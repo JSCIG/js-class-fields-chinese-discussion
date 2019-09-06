@@ -9,6 +9,7 @@
 - 谢然（@xieranmaya），大喵教育
 - 寸志（），饿了么
 - newshowing，华为
+- 钟大兵（），沪江，前端架构师
 - 李天佑（），Intel，Principal Engineer，Lead of Intel JavaScript Technology Center
 - 有知（），蚂蚁金服
 - 张强（），美团点评
@@ -30,7 +31,6 @@
 - 邓钢（@myst729），饿了么
 - ？，阿里巴巴
 - ？，哔哩哔哩
-- ？，沪江
 - ？，腾讯
 - ？，阅文集团
 - ？，字节跳动
