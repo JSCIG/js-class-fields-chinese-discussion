@@ -18,7 +18,7 @@
 - 谯洪敏（[@ufoqhmdt](https://github.com/ufoqhmdt)），趣头条，中台 Runtime 全功能团队负责人，趣头条泛前端联盟负责人
 - 罗冉（[@Jocs](https://github.com/Jocs)），石墨文档，前端工程师，开源软件 Mark Text 作者
 - 郭达峰（[@dfguo](https://github.com/dfguo)），Strikingly，联合创始人，CTO
-- 文东（），途虎养车
+- 文东（[@Maxwin-z](https://github.com/Maxwin-z)），途虎养车，总监
 - 魏晓军（），携程，高级研发经理
 - 张鑫旭（[@zhangxinxu](https://github.com/zhangxinxu)），阅文集团
 - 张成荣（[@Smadey](https://github.com/smadey)），阅文集团
