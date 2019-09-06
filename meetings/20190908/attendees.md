@@ -7,6 +7,8 @@
 - 喻世江（），阿里巴巴，UC浏览器内核研发工程师
 - 顾轶灵（[@Justineo](https://github.com/Justineo)），百度，前端工程师，EFE TC委员
 - 黄之昊（），哔哩哔哩
+- Radioactive（），哔哩哔哩，Node.js架构师
+- 张煜航（），哔哩哔哩，TypeScript工程师
 - 谢然（[@xieranmaya](https://github.com/xieranmaya)），大喵教育
 - 寸志（），饿了么
 - newshowing，华为
