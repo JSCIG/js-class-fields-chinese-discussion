@@ -19,6 +19,11 @@
 - 谯洪敏（[@ufoqhmdt](https://github.com/ufoqhmdt)），趣头条，中台 Runtime 全功能团队负责人，趣头条泛前端联盟负责人
 - 罗冉（[@Jocs](https://github.com/Jocs)），石墨文档，前端工程师，开源软件 [Mark Text](https://github.com/marktext/marktext) 作者
 - 郭达峰（[@dfguo](https://github.com/dfguo)），Strikingly，联合创始人，CTO
+- kacakong，腾讯
+- yoterlg，腾讯
+- kingbird，腾讯
+- seedsave，腾讯
+- clementcn，腾讯
 - 余泽江（[@trotyl](https://github.com/trotyl)），ThoughtWorks，前端工程师，Angular 活跃贡献者
 - 陈天宇（），ThoughtWorks，前端工程师
 - 文东（[@Maxwin-z](https://github.com/Maxwin-z)），途虎养车，总监
@@ -33,8 +38,4 @@
 
 - 程劭非（@wintercn）
 - 邓钢（@myst729），饿了么
-- ？，阿里巴巴
 - ？，哔哩哔哩
-- ？，腾讯
-- ？，阅文集团
-- ？，字节跳动
