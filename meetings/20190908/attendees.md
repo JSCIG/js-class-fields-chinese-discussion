@@ -29,6 +29,7 @@
 - 余泽江（[@trotyl](https://github.com/trotyl)），ThoughtWorks，前端工程师，Angular 活跃贡献者
 - 陈天宇（），ThoughtWorks，前端工程师
 - 文东（[@Maxwin-z](https://github.com/Maxwin-z)），途虎养车，总监
+- Xeodou ([@xeodou](https://github.com/xeodou))，Udacity，SE
 - 魏晓军（），携程，高级研发经理
 - 张鑫旭（[@zhangxinxu](https://github.com/zhangxinxu)），阅文集团
 - 张成荣（[@Smadey](https://github.com/smadey)），阅文集团
