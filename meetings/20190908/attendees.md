@@ -19,7 +19,7 @@
 - 有知（[@kuitos](https://github.com/kuitos)），蚂蚁金服，前端技术专家
 - 张强（[@madlordory](https://github.com/madlordory)），美团点评，资深前端架构师
 - 周爱民（[@aimingoo](https://github.com/aimingoo)），南潮，架构师，技术副总裁，[《JavaScript语言精髓与编程实践》](https://book.douban.com/subject/10542576/)作者
-- 于航（），Paypal，[FreeCodeCamp上海社区](https://freecodecamp-shanghai.github.io)负责人
+- 于航（），Paypal，[freeCodeCamp上海社区](https://freecodecamp-shanghai.github.io)负责人
 - 谯洪敏（[@ufoqhmdt](https://github.com/ufoqhmdt)），趣头条，中台 Runtime 全功能团队负责人，趣头条泛前端联盟负责人
 - 罗冉（[@Jocs](https://github.com/Jocs)），石墨文档，前端工程师，开源软件 [Mark Text](https://github.com/marktext/marktext) 作者
 - 郭达峰（[@dfguo](https://github.com/dfguo)），Strikingly，联合创始人，CTO
@@ -40,4 +40,4 @@
 - 李玉北（），字节跳动
 - 晋晓炜（[@amio](https://github.com/amio)），字节跳动
 - 刘小杰（[@jacksky007](https://github.com/jacksky007)）
-- 石垚（水歌，[@TechQuery](https://github.com/TechQuery)），[freeCodeCamp 成都社区](https://fcc-cd.tk/)负责人，[WebCell 框架](https://web-cell.dev/)作者，微软 MVP
+- 石垚（水歌，[@TechQuery](https://github.com/TechQuery)），[freeCodeCamp成都社区](https://fcc-cd.tk/)负责人，[WebCell 框架](https://web-cell.dev/)作者，微软 MVP
