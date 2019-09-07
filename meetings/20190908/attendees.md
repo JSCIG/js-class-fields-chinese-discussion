@@ -37,6 +37,7 @@
 - 李玉北（），字节跳动
 - 晋晓炜（[@amio](https://github.com/amio)），字节跳动
 - 刘小杰（[@jacksky007](https://github.com/jacksky007)）
+- 王浩宇 Makara（[@makara](https://github.com/makara)）, Wiredcraft, Tech Lead, JSConf China Organizer
 
 ## 尚未确定
 
