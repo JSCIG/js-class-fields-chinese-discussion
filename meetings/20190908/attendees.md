@@ -3,7 +3,7 @@
 ## 已确定参会代表
 
 - 贺师俊（[@hax](https://github.com/hax)），360，高级前端架构师，360技术委员会Web前端TC委员，TC39代表
-- 李俊辉（[@holyjunhui](https://github.com/holyjunhui))，360
+- 李俊辉（[@holyjunhui](https://github.com/holyjunhui))，360，前端工程师
 - 元彦（[@yuanyan](https://github.com/yuanyan)），阿里巴巴
 - 喻世江（[@yusj](https://github.com/yusj)），阿里巴巴，UC浏览器内核研发工程师
 - 顾轶灵（[@Justineo](https://github.com/Justineo)），百度，前端工程师，[百度EFE](https://github.com/ecomfe/efe) TC委员
@@ -11,23 +11,24 @@
 - Radioactive（），哔哩哔哩，Node.js架构师
 - 张煜航（），哔哩哔哩，TypeScript工程师
 - 谢然（[@xieranmaya](https://github.com/xieranmaya)），大喵教育
-- 邓钢（[@myst729](https://github.com/myst729)），饿了么
-- 寸志（），饿了么
+- 邓钢（[@myst729](https://github.com/myst729)），饿了么，高级架构师，大前端部门负责人
+- 寸志（[@island205](https://github.com/island205)），饿了么，前端架构师
 - newshowing，华为，编程语言实验室
 - 钟大兵（），沪江，前端架构师
 - 李天佑（），Intel，Principal Engineer，Lead of Intel JavaScript Technology Center
 - 有知（[@kuitos](https://github.com/kuitos)），蚂蚁金服，前端技术专家
 - 张强（[@madlordory](https://github.com/madlordory)），美团点评，资深前端架构师
 - 周爱民（[@aimingoo](https://github.com/aimingoo)），南潮，架构师，技术副总裁，[《JavaScript语言精髓与编程实践》](https://book.douban.com/subject/10542576/)作者
-- 于航（），Paypal，[freeCodeCamp上海社区](https://freecodecamp-shanghai.github.io)负责人
+- 于航（[@Becavalier](https://github.com/Becavalier)），Paypal，[freeCodeCamp上海社区](https://freecodecamp-shanghai.github.io)负责人
 - 谯洪敏（[@ufoqhmdt](https://github.com/ufoqhmdt)），趣头条，中台 Runtime 全功能团队负责人，趣头条泛前端联盟负责人
 - 罗冉（[@Jocs](https://github.com/Jocs)），石墨文档，前端工程师，开源软件 [Mark Text](https://github.com/marktext/marktext) 作者
 - 郭达峰（[@dfguo](https://github.com/dfguo)），Strikingly，联合创始人，CTO
+- 王嘉祺（[@Saviio](https://github.com/Saviio)），teambition，前端负责人
 - 马晓东（kacakong），腾讯
 - yoterlg（[@louiszhai](https://github.com/louiszhai)），腾讯
-- kingbird，腾讯
+- Webb（[@kingbird](https://github.com/kingbird)），腾讯
 - seedsave，腾讯
-- Clement，腾讯
+- 亢中翼（Clement），腾讯
 - 余泽江（[@trotyl](https://github.com/trotyl)），ThoughtWorks，前端工程师，Angular 活跃贡献者
 - 陈天宇（），ThoughtWorks，前端工程师
 - 文东（[@Maxwin-z](https://github.com/Maxwin-z)），途虎养车，总监
