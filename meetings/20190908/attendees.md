@@ -3,15 +3,17 @@
 ## 已确定参会代表
 
 - 贺师俊（[@hax](https://github.com/hax)），360，高级前端架构师，360技术委员会Web前端TC委员，TC39代表
+- 李俊辉（[@holyjunhui](https://github.com/holyjunhui))，360
 - 元彦（[@yuanyan](https://github.com/yuanyan)），阿里巴巴
-- 喻世江（），阿里巴巴，UC浏览器内核研发工程师
-- 顾轶灵（[@Justineo](https://github.com/Justineo)），百度，前端工程师，EFE TC委员
+- 喻世江（[@yusj](https://github.com/yusj)），阿里巴巴，UC浏览器内核研发工程师
+- 顾轶灵（[@Justineo](https://github.com/Justineo)），百度，前端工程师，[百度EFE](https://github.com/ecomfe/efe) TC委员
 - 黄之昊（），哔哩哔哩
 - Radioactive（），哔哩哔哩，Node.js架构师
 - 张煜航（），哔哩哔哩，TypeScript工程师
 - 谢然（[@xieranmaya](https://github.com/xieranmaya)），大喵教育
+- 邓钢（[@myst729](https://github.com/myst729)），饿了么
 - 寸志（），饿了么
-- newshowing，华为
+- newshowing，华为，编程语言实验室
 - 钟大兵（），沪江，前端架构师
 - 李天佑（），Intel，Principal Engineer，Lead of Intel JavaScript Technology Center
 - 有知（[@kuitos](https://github.com/kuitos)），蚂蚁金服，前端技术专家
@@ -30,6 +32,7 @@
 - 陈天宇（），ThoughtWorks，前端工程师
 - 文东（[@Maxwin-z](https://github.com/Maxwin-z)），途虎养车，总监
 - Xeodou ([@xeodou](https://github.com/xeodou))，Udacity，SE
+- 王浩宇（[@makara](https://github.com/makara)）, Wiredcraft, Tech Lead, JSConf China 组织者
 - 魏晓军（），携程，高级研发经理
 - 张鑫旭（[@zhangxinxu](https://github.com/zhangxinxu)），阅文集团
 - 张成荣（[@Smadey](https://github.com/smadey)），阅文集团
@@ -38,9 +41,3 @@
 - 晋晓炜（[@amio](https://github.com/amio)），字节跳动
 - 刘小杰（[@jacksky007](https://github.com/jacksky007)）
 - 石垚（水歌，[@TechQuery](https://github.com/TechQuery)），[freeCodeCamp 成都社区](https://fcc-cd.tk/)负责人，[WebCell 框架](https://web-cell.dev/)作者，微软 MVP
-- 王浩宇 Makara（[@makara](https://github.com/makara)）, Wiredcraft, Tech Lead, JSConf China Organizer
-- 李俊辉（[@holyjunhui](https://github.com/holyjunhui))，360
-
-## 尚未确定
-
-- 邓钢（@myst729），饿了么
