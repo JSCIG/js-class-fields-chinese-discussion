@@ -21,6 +21,7 @@
 - 周爱民（[@aimingoo](https://github.com/aimingoo)），南潮，架构师，技术副总裁，[《JavaScript语言精髓与编程实践》](https://book.douban.com/subject/10542576/)作者
 - 于航（[@Becavalier](https://github.com/Becavalier)），Paypal，[freeCodeCamp上海社区](https://freecodecamp-shanghai.github.io)负责人
 - 谯洪敏（[@ufoqhmdt](https://github.com/ufoqhmdt)），趣头条，中台 Runtime 全功能团队负责人，趣头条泛前端联盟负责人
+- 陈小白（），趣头条，萌推前端负责人
 - 罗冉（[@Jocs](https://github.com/Jocs)），石墨文档，前端工程师，开源软件 [Mark Text](https://github.com/marktext/marktext) 作者
 - 郭达峰（[@dfguo](https://github.com/dfguo)），Strikingly，联合创始人，CTO
 - 王嘉祺（[@Saviio](https://github.com/Saviio)），teambition，前端负责人
