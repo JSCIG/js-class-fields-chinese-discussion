@@ -37,6 +37,7 @@
 - 李玉北（），字节跳动
 - 晋晓炜（[@amio](https://github.com/amio)），字节跳动
 - 刘小杰（[@jacksky007](https://github.com/jacksky007)）
+- 李俊辉（[@holyjunhui](https://github.com/holyjunhui)，360
 
 ## 尚未确定
 
