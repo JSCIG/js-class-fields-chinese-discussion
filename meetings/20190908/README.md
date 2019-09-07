@@ -12,7 +12,7 @@
 
 ## 赞助商
 
-<p align="center">
-![Node OpenSource Foundation Logo](https://raw.githubusercontent.com/NodeParty-China/Node-OpenSource-Foundation/master/img/LOGO-G-250.png)<br>
-[NodeParty中国开源基金会](https://github.com/NodeParty-China/Node-OpenSource-Foundation)
-</p>
+<div align="center"><a href="https://github.com/NodeParty-China/Node-OpenSource-Foundation">
+<img src="https://raw.githubusercontent.com/NodeParty-China/Node-OpenSource-Foundation/master/img/LOGO-G-250.png" width="125" height="125" alt="Logo of NodeParty China OpenSource Foundation"><br>
+NodeParty中国开源基金会
+</a></div>
