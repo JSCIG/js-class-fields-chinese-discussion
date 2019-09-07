@@ -9,3 +9,8 @@
 - Host：蚂蚁金服，联系人：有知
 - [参会代表](attendees.md)
 - [议程](agenda.md)
+
+## 赞助商
+
+![Node OpenSource Foundation Logo](https://raw.githubusercontent.com/NodeParty-China/Node-OpenSource-Foundation/master/img/LOGO-G-250.png)
+[NodeParty中国 开源基金会](https://github.com/NodeParty-China/Node-OpenSource-Foundation)
