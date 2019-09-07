@@ -38,6 +38,8 @@
 - 晋晓炜（[@amio](https://github.com/amio)），字节跳动
 - 刘小杰（[@jacksky007](https://github.com/jacksky007)）
 - 石垚（水歌，[@TechQuery](https://github.com/TechQuery)），[freeCodeCamp 成都社区](https://fcc-cd.tk/)负责人，[WebCell 框架](https://web-cell.dev/)作者，微软 MVP
+- 王浩宇 Makara（[@makara](https://github.com/makara)）, Wiredcraft, Tech Lead, JSConf China Organizer
+- 李俊辉（[@holyjunhui](https://github.com/holyjunhui))，360
 
 ## 尚未确定
 
