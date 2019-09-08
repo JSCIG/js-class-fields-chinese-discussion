@@ -9,7 +9,13 @@ when starting a statement in new line,
 insert leading semicolon iff the first
 character is `(`, `[`, `+`, `-`, `/` and ```.
 
-Public field add several new ASI hazards:
+```js
+test()
+;[1, 2, 3, 4].forEach(n => console.log(n))
+```
+
+Public field add several
+new ASI hazards
 
 ```js
 class Test {
@@ -43,6 +49,8 @@ It's ok, actually make the rule simpler:
 - `+-*/` (the notation of four arithmetic binary operators)
 - ``&nbsp; &nbsp;` (template string)
 
+- rarely use
+- syntax error
 
 ```js
 class Test1 {
@@ -64,92 +72,104 @@ semicolon rule: insert leading semicolon
 if you are in class body and the first
 ~~character~~ **token** is `in` or `instanceof`.
 
+- no error
+- different semantics
+
 ```js
 class Test1 {
 	set = new Set
-	f() { ... }
+\
+	/** f method ... */
+	f(x) { ... }
 }
 \
 // Test2 actually is class { set f() { ... } }
 class Test2 {
 	set
-	f() { ... }
+\
+	/** f method ... */
+	f(x) { ... }
 }
 ```
 
 This case is the worst. We need a special rule:
-insert leading semicolon if you are in class
-body and **the previous line is `set` or `get`**.
+insert leading semicolon if you are in class body
+and **the previous line is `set`, `get` or `static`**.
 
 The core value of the leading semicolon
 rule is you never look backward,
 and this case just **ruin** it.
 
+- no error
+- different semantics
+
+- eslint
+- [prettier](https://github.com/prettier/eslint-config-prettier#no-unexpected-multiline)
+
 Possible Solutions
 
-Add keyword
-
-```js
-class Test {
-	field out = new WritableStream()
-	field in = new ReadableStream()
-	field set = new Set()
-	f() { ... }
-\
-	field #priv
-}
-```
-
-```js
-class Test {
-	own out = new WritableStream()
-	own in = new ReadableStream()
-	own set = new Set()
-	f() { ... }
-}
-```
-
-```js
-class Test {
-	readonly out = new WritableStream()
-	readonly in = new ReadableStream()
-	writable set = new Set()
-	f() { ... }
-}
-```
-
-ESLint rule:
-disallow `in` `set`...
+New ESLint rule:
+**no-keyword-name-field**
 
 ```js
 class Test {
 	out
-	;['in']
-	;['instanceof']
-	;['set']
-	;['get']
+	'in'
+	'instanceof'
+	'set'
+	'get'
+	'static'
 	f() { ... }
 }
 ```
-
-ESLint rule:
-require decorator
 
 ```js
 class Test {
-	@readonly out = new WritableStream()
-	@readonly in = new ReadableStream()
-	@writable set = new Set()
+	'set' = new Set
+	'in' = 'India'
+}
+```
+
+So weird...
+
+New ESLint rule:
+**prefer-decorator-for-field**
+
+```js
+class Test {
+	@field out = new WritableStream()
+	@field in = new ReadableStream()
+	@field set = new Set()
 	f() { ... }
 }
 ```
 
-- rely on decorator
 - rely on linter
+- rely on decorator (only stage 2)
+- rely on transpiler
 - coding style agreement
-- need unified names
 
-Pass on the cost
-to the community
+Add keyword!
 
-[Discussion and Poll]()
+```js
+class Test {
+	<keyword> out = new WritableStream()
+	<keyword> in = new ReadableStream()
+	<keyword> set = new Set()
+	f() { ... }
+}
+```
+
+[Cost](https://github.com/tc39/proposal-class-fields/issues/210)
+
+- 工具链实现成本
+- 版本更新
+- 代码规范跟进
+- 版本更新
+- 下游配置
+- 版本更新
+- 团队讨论
+
+Transfer the cost
+from committee (100)
+to community (1,000,000)
