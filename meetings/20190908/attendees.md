@@ -7,7 +7,6 @@
 - 元彦（[@yuanyan](https://github.com/yuanyan)），阿里巴巴
 - 喻世江（[@yusj](https://github.com/yusj)），阿里巴巴，UC浏览器内核研发工程师
 - 顾轶灵（[@Justineo](https://github.com/Justineo)），百度，前端工程师，[百度EFE](https://github.com/ecomfe/efe) TC委员
-- 黄之昊（），哔哩哔哩
 - Radioactive（），哔哩哔哩，Node.js架构师
 - 张煜航（），哔哩哔哩，TypeScript工程师
 - 谢然（[@xieranmaya](https://github.com/xieranmaya)），大喵教育
@@ -22,11 +21,12 @@
 - 于航（[@Becavalier](https://github.com/Becavalier)），Paypal，[freeCodeCamp上海社区](https://freecodecamp-shanghai.github.io)负责人
 - 谯洪敏（[@ufoqhmdt](https://github.com/ufoqhmdt)），趣头条，中台 Runtime 全功能团队负责人，趣头条泛前端联盟负责人
 - 陈小白（），趣头条，萌推前端负责人
+- 戴文俊（），趣头条，前端工程师
 - 罗冉（[@Jocs](https://github.com/Jocs)），石墨文档，前端工程师，开源软件 [Mark Text](https://github.com/marktext/marktext) 作者
 - 郭达峰（[@dfguo](https://github.com/dfguo)），Strikingly，联合创始人，CTO
 - 王嘉祺（[@Saviio](https://github.com/Saviio)），teambition，前端负责人
 - 马晓东（kacakong），腾讯
-- yoterlg（[@louiszhai](https://github.com/louiszhai)），腾讯
+- 翟灿东（[@louiszhai](https://github.com/louiszhai)），腾讯
 - Webb（[@kingbird](https://github.com/kingbird)），腾讯
 - seedsave，腾讯
 - 亢中翼（Clement），腾讯
