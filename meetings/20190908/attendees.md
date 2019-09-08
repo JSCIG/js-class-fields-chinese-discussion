@@ -41,5 +41,5 @@
 - 陈旭（[@rdkmaster](https://github.com/rdkmaster)），中兴通讯
 - 李玉北（），字节跳动
 - 晋晓炜（[@amio](https://github.com/amio)），字节跳动
-- 刘小杰（[@jacksky007](https://github.com/jacksky007)）
+- 刘小杰（[@jacksky007](https://github.com/jacksky007)），毒App
 - 石垚（水歌，[@TechQuery](https://github.com/TechQuery)），[freeCodeCamp成都社区](https://fcc-cd.tk/)负责人，[WebCell 框架](https://web-cell.dev/)作者，微软 MVP
