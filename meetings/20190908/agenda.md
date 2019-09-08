@@ -19,7 +19,7 @@
     1. *10m* [`[x] = ...`语法二义性](../../docs/public-fields-syntax-ambiguity-1.md)
     1. *15m* [``a = 'world'; b = `Hello ${a}!` ``语法二义性](../../docs/public-fields-syntax-ambiguity-2.md)
     1. *20m* [ASI hazard](../../docs/public-fields-asi.md)
-    1. *20m* Define own property 语义与原型继承不相容
+    1. *20m* [Define own property 语义与原型继承不相容](../../docs/public-fields-semantics.md)
     1. *10m* public static fields 子类问题
 1. *15m* coffee break / buffer
 1. *60m* private fields相关issues

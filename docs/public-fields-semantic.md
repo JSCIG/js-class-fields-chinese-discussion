@@ -1,6 +1,301 @@
 Semantic
 
 ```js
+class MyComponent extends BaseComponent {
+	constructor() {
+		this.state = {foo: 42}
+	}
+	wrongUsage() {
+		this.state.foo = ...
+		this.state = ...
+	}
+}
+```
+
+```js
+class BaseComponent {
+	get state() { return this._immutableState }
+	set state(initState) {
+		if (this._state != null) throw new TypeError('please use setState()')
+		if (initState == null) throw new TypeError('state should be initialized to a non-null value')
+		this._state = initState
+		this._immutableState = new Proxy(this._state, { set() { throw new TypeError() } })
+	}
+}
+```
+
+```js
+class MyComponent extends BaseComponent {
+	state = {foo: 42}
+	wrongUsage() {
+		this.state.foo = ...
+		this.state = ...
+	}
+}
+```
+
+```js
+class User {
+	name
+	password
+	...
+}
+```
+
+```js
+class SafeUser extends User {
+	password = generateStrongPassword()
+}
+```
+
+```js
+class User {
+	get password() { return this._password }
+	set password(v) {
+		this._password = v
+		SecurityAuditor.log('user change password', this.name, v)
+	}
+}
+```
+
+```js
+class User {
+	constructor() {
+		this.password = generateStrongPassword()
+		...
+	}
+}
+```
+
+```js
+class SafeUser extends User {
+	get password() { return this._password }
+	set password(v) {
+		this._password = v
+		SecurityAuditor.log('user change password', this.name, v)
+	}
+}
+```
+
+```js
+class User {
+	constructor() {
+		this.password = generateStrongPassword()
+		...
+	}
+}
+```
+
+```js
+class User {
+	password = generateStrongPassword()
+	...
+}
+```
+
+- Subclass field will never call superclass accessor
+- Subclass accessor can not override superclass field
+
+- Ok: Babel 6, TypeScript
+- Fail: Babel 7, Chrome
+
+`[[Define]]` VS `[[Set]]`
+
+- `[[Set]]` Babel 6, TypeScript
+- `[[Define]]` Babel 7, Chrome
+
+Why `[[Set]]`
+
+- No footgun
+- `foo = bar` just implies `[[Set]]`
+
+Why `[[Define]]`
+
+- Definition!
+- Decorator!
+
+- `[[Define]]` Vue, React, ...
+- `[[Set]]` MobX, Polymer, ...
+
+No real consensus
+
+Possible Solution
+
+New ESLint rule
+**prefer-decorator-for-field**
+
+```js
+class {
+	@set foo = 42
+	@define bar = 1337
+}
+```
+
+- Burden for edge cases
+- @define still broken — subclass <br>accessor can't override superclass
+
+No public field!
+
+Classes 1.1 proposal
+by Kevin Smith, Allen Wirfs-Brock and Brendan Eich
+
+```js
+class Counter {
+	var value = 42
+	inc() {
+		++value
+	}
+	get value() { return value }
+	equal(that) {
+		return value === that::value
+		// this::value === that::value
+	}
+}
+```
+
+No public field!
+
+Own property
+Definition
+
+Prototype-based
+Inheritence
+
+Refused because of
+no public field...
+
+Revisit the issues
+
+1. `foo = bar` implies `[[Set]]`
+1. As `[[Set]]`, programmers expect <br>(subclass) "field" call (superclass) accessor
+1. As `[[Define]]`, programmers expect <br>subclass (accessor) override superclass (field)
+
+1. `[[Define]]`
+1. own property
+
+Solutions
+
+1. Drop `[[Define]]` (use `[[Set]]`)
+1. Drop own property (use `[[Define]]` on prototype)
+1. Drop the combination of `[[Define]]` and own property
+
+1. ~~use [[Set]]~~
+1. `[[Define]]` accessors on prototype
+1. `[[Define]]` data property on prototype, then `[[Set]]` for initializer
+
+```js
+class Foo {
+	<keyword> foo = 42
+}
+class Bar extends Foo {
+	get foo() { ... }
+	set foo(v) { ... }
+}
+```
+
+```js
+class Foo {
+	// Object.defineProperty(Foo.prototype,
+	//   'foo', { value: undefined, ... })
+	foo
+	constructor() {
+		this.foo = 42
+	}
+}
+class Bar extends Foo {
+	get foo() { ... }
+	set foo(v) { ... }
+}
+```
+
+Syntax sugar of
+getter/setter
+wrapper for private
+
+```js
+class Foo {
+	<keyword> foo = 42
+}
+```
+
+```js
+class Foo {
+	#foo = 42
+	get foo() { return this.#foo }
+	set foo(v) { this.#foo = v }
+}
+```
+
+```js
+class Foo {
+	<private> foo = 42
+	get foo() { return foo }
+	set foo(v) { foo = v }
+	<private> method() {
+		foo // diff from this.foo
+	}
+}
+```
+
+Prototype-based
+Follow ES6 classes
+
+Keyword-based
+Easy to follow
+OO best practice
+
+```js
+<keyword> foo = 'foo'
+<keyword> writable bar = 'bar'
+```
+
+```js
+#foo = 'foo'
+get foo() { return this.#foo }
+#bar = 'bar'
+get bar() { return this.#bar }
+set bar(v) { this.#bar = v }
+```
+
+getter/setter is bad?
+
+No!
+
+(Time limit, no details)
+
+Most programming languages
+are using syntax sugar of
+getter/setter pattern!
+
+- C#
+- Ruby
+- Scala
+- Groovy
+- Kotlin
+- Dart
+- Swift
+- ...
+
+all use this pattern
+
+In last 20 years, main stream OO programming languages
+all adopt the design of using getter/setters wrap
+private states — which is proved as OO best practice.
+
+And most programming languages designers
+agree it's good and deserve dedicate syntax
+
+JavaScript programmers don't use getter/setters much,&nbsp;
+not because we dislike getter/setters, just because we
+never have private mechanism (there are some workarounds,&nbsp;
+but lack of ergonomics syntax), which means we eventually
+have to store states to the own properties in most cases.
+
+So we use own properties to store states of instances
+just because we do not have other good choices
+
+
+```js
 class Counter {
 	count = 0
 	inc() {
