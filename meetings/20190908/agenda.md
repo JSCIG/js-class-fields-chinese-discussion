@@ -26,8 +26,8 @@
     1. *15m* [hard private](../../docs/hard-private.md)
     1. *10m* [brand checking](../../docs/brand.md)
     1. *20m* [proxy透明性](../../docs/proxy-transparency.md)
-    1. *5m* prototype继承透明性
-    1. *10m* private static fields 子类问题
+    1. *5m* [prototype继承透明性](../../docs/prototype-inheritence.md)
+    1. *10m* [private static fields 子类问题](../../docs/static-private-semantic.md)
 1. *30m* 对TypeScript的影响
     1. *5m* 为什么要考虑TS
     1. *10m* breaking change

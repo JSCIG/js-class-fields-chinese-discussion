@@ -10,3 +10,6 @@ class Test {
 const test = Object.create(new Test())
 test.foo() // throw
 ```
+
+老的类库
+互操作性
