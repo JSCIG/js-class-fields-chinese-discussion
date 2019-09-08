@@ -7,7 +7,7 @@
     1. 主持人介绍会议议程和规则
     1. 如使用会议流程工具，会议流程工具介绍
 1. *10m* class fields现状介绍
-    1. [提案简介](../docs/intro.md)
+    1. [提案简介](../../docs/intro.md)
     1. [提案演变历史简介](https://github.com/tc39/proposal-class-fields#development-history)
     1. [争议简介](https://github.com/tc39/proposal-class-fields/issues?utf8=✓&q=is%3Aissue+sort%3Acomments-desc+)
     1. 沉没成本
@@ -16,9 +16,9 @@
     1. 360决议和后续情况简介
     1. 会议目标
 1. *75m* public fields相关issues
-    1. *10m* `[x] = ...`语法二义性
-    1. *15m* ``a = 'world'; b = `Hello ${a}!` ``语法二义性
-    1. *20m* ASI hazard
+    1. *10m* [`[x] = ...`语法二义性](../../docs/public-fields-syntax-ambiguity-1.md)
+    1. *15m* [``a = 'world'; b = `Hello ${a}!` ``语法二义性](../../docs/public-fields-syntax-ambiguity-2.md)
+    1. *20m* [ASI hazard](../../docs/public-fields-asi.md)
     1. *20m* Define own property 语义与原型继承不相容
     1. *10m* public static fields 子类问题
 1. *15m* coffee break / buffer

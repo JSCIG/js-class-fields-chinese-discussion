@@ -1,29 +1,51 @@
+```html
+<script>
+class Test {
+	name = 'world'
+	greeting = `Hello ${name}!`
+}
+alert(new Test().greeting)
+</script>
+```
+
+- A. "Hello world!"
+- B. "Hello undefined!"
+- C. "Hello !"
+- D. throw ReferenceError
+- E. None of the above
+
+C. "Hello !"
+
 ```js
 \
-	name = 'world';
-	greeting = `Hello ${name}!`;
+	a = 10
+	b = a * a
 \
 ```
 
 ```js
-class Test {
-	name = 'world';
-	greeting = `Hello ${name}!`;
+class X {
+	a = 10
+	b = a * a
 }
 ```
 
 Same syntax, very
 different semantics
 
-- confusion,
-- surprise,
+- bad to novices,
+- very bad to programmers from other languages,
+- also bad to professional JS programmers
+
 - I'm stupid!,
 - You fool!
+
+RTFM
 
 No
 
 - Don't blame yourself
-- Don't blame programmers
+- Don't blame your coworkers
 
 Blame TC39!
 
@@ -37,9 +59,11 @@ Stop!
 Does any other programming
 languages have same issue?
 
-- C#, VB.NET
-- Java, Kotlin, Groovy
+- C++, C#, VB.NET
+- Java, Scala, Groovy
+- Swift, Kotlin, Dart
 - Python, Ruby, Coffee
+<!-- Objective-C ? , Perl ? , C, SQL, MATLAB, R, Go -->
 
 None
 
@@ -50,76 +74,71 @@ PHP
 Bad design **IS**
 just bad design.
 
-No Excuse
+Why it is bad?
+
+```js
+class Test {
+	name = 'world'
+	greeting = `Hello ${name}!`
+}
+```
+
+- Are you sure you never make such mistake?
+- Are you sure your team members never make such mistake?
+- Are you sure you can find the mistake by code review?
+
+[code review](https://github.com/hax/js-class-fields-chinese-discussion/pull/1/files)
+
+- How you know you are in the context of class body?
+- How you know `b` in `class { a = b * b }` is a mistake?
+
 
 Possible solution
 
-ESLint rule:
-disallow variables
-same as field names
+New ESLint rule:
+**no-field-name-var**
 
 ```js
 class Test {
-	name = 'world';
-	greeting = `Hello ${?}!`;
+	name = 'world'
+	greeting = `Hello ${name}!` // lint error
 }
 ```
 
-```js
-class Test {
-	name = 'world';
-	greeting = `Hello ${window.name}!`;
-}
-```
+等价于 shadow
+掉外部同名变量
+
+- Error prone,
+- Ask for more accidents of missing `this`,
+- Very bad to code review,
+- New linter rule is must to have
+
+`this.name` vs `name`
+
+- same
+- not same
+
+- implicit `this`
+- disallow `name` (lint),
+- drop `this.name`
 
 ```js
-class Test {
-	window;
-	name = 'world';
-	greeting = `Hello ${?}!`;
-}
-```
-
-```js
-const outerName = name
-class Test {
-	window;
-	name = 'world';
-	greeting = `Hello ${outerName}!`;
-}
-```
-
-```js
-const currentName = () => name;
-class Test {
-	window;
-	name = 'world';
-	greeting = `Hello ${currentName()}!`;
-}
-```
-
-Why not just allow
-implicit `this`?
-
-Why not just
-drop `this`?
-
-`this` binding issue
-
-```js
-class Test {
-	<keyword> count = 0
-	<keyword> inc() { ++count }
+class Counter {
+	<keyword> n = 0
+	<keyword> inc() { ++n }
 	render() {
 		return (
-			<div onClick={inc}>{count}</div>
+			<div onClick={inc}>{n}</div>
 		)
 	}
 }
 ```
 
-- Error prone,
-- Ask for more accidents of missing `this`,
-- New linter rule is must to have
+change semantics of old code?
 
-[Discussion and Poll]()
+- shadow vars
+- bound methods (`this` binding issue)
+- if private how to get `equals(o) { return n === o.n }`
+
+Just a example
+need further exploring
