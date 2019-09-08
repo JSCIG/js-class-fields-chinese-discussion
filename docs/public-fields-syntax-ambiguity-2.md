@@ -1,7 +1,3 @@
-## Syntax issue of public field
-
-
-
 ```js
 \
 	name = 'world';
