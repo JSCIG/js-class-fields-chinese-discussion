@@ -20,12 +20,12 @@
     1. *15m* [``a = 'world'; b = `Hello ${a}!` ``语法二义性](../../docs/public-fields-syntax-ambiguity-2.md)
     1. *20m* [ASI hazard](../../docs/public-fields-asi.md)
     1. *20m* [Define own property 语义与原型继承不相容](../../docs/public-fields-semantics.md)
-    1. *10m* public static fields 子类问题
+    1. *10m* [public static fields 子类问题](../../docs/static-public-fields.md)
 1. *15m* coffee break / buffer
 1. *60m* private fields相关issues
-    1. *15m* hard private
-    1. *10m* brand checking
-    1. *20m* proxy透明性
+    1. *15m* [hard private](../../docs/hard-private.md)
+    1. *10m* [brand checking](../../docs/brand.md)
+    1. *20m* [proxy透明性](../../docs/proxy-transparency.md)
     1. *5m* prototype继承透明性
     1. *10m* private static fields 子类问题
 1. *30m* 对TypeScript的影响
