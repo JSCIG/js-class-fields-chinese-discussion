@@ -1,0 +1,103 @@
+s.replaceAll(/x/, 'b') stage3
+
+
+s.matchAll(/(x)/, 'b') stage4
+
+
+
+
+
+
+
+
+B. 不是问题或小问题
+C. 大问题但是不至于否定整个提案
+D. 严重到可以因此否定整个提案
+
+语法二义性
+B. 0
+C. 11
+D. 2
+
+ASI问题
+B. 6
+C. 0
+D. 7
+
+Define Own Prop 语义问题
+B. 0
+C. 0
+D. 13
+
+
+private proxy透明性
+B. 4
+C. 6
+D. 3
+
+hard private
+B. 7
+C. 6
+D. 0
+
+没有protected
+B. 7
+C. 4
+D. 2
+
+static private
+B. 1
+C. 5
+D. 6
+
+#符号问题
+B. 10
+C. 1
+D. 1
+
+
+total
+B. 0
+C. 0
+D. 11
+
+
+
+<script>
+
+	class MyComp extends React.Compt {
+		constructor(props) {
+			super(props)
+			this.onclick = this.onclick.bind()
+		}
+		onclick() {
+
+		}
+	}
+
+	class MY  {
+		onclick = () => {}
+	}
+
+	class X {
+		a = console.log('a')
+		constructor(readonly x = console.log(4)) {
+			console.log(3)
+		}
+	}
+
+	class Y extends X {
+		b = console.log('b') + this.x
+		constructor() {
+			console.log(1)
+			super();
+			console.log(2)
+		}
+	}
+
+
+	new Y()
+
+
+
+</script>

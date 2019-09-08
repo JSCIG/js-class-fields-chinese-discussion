@@ -1,0 +1,26 @@
+{
+	"private": true,
+	"name": "js-class-fields-chinese-discussion",
+	"version": "1.0.0",
+	"description": "Chinese Discussion of JavaScript Class Fields Proposal",
+	"main": "index.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"scripts": {
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hax/js-class-fields-chinese-discussion.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/hax/js-class-fields-chinese-discussion/issues"
+	},
+	"homepage": "https://github.com/hax/js-class-fields-chinese-discussion#readme",
+	"dependencies": {},
+	"devDependencies": {
+		"coffeescript": "^2.3.2"
+	}
+}
