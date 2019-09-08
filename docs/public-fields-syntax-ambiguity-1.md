@@ -1,12 +1,12 @@
 ```js
 \
-	[x] = [1, 2, 3];
+	[x] = [1, 2, 3]
 \
 ```
 
 ```js
 class Test {
-	[x] = [1, 2, 3];
+	[x] = [1, 2, 3]
 }
 ```
 
@@ -17,21 +17,30 @@ Computed property
 Same syntax, very
 different semantics
 
-- confusion,
-- surprise,
-- WTF?
-
 - bad to novices,
-- also bad to programmers from other languages,
-- even worse to professional JS programmers
+- bad to programmers from other languages,
+- also bad to professional JS programmers
 
 - rarely known,
 - rarely used,
-- hard to remember
+- hard to recognize
+
+TypeScript already
+support it years?
+
+NO
+
+TS 2.7+
+(Jan 31, 2018)
 
 Possible solution
 
-ESLint rule,
-disallow it!
+New ESLint rule,
+**no-class-computed-field**
 
-Possible ~~solution~~
+- Well-known symbols are for methods/accessors,
+- Private fields instead of symbol-based private
+
+No big use case
+
+Just drop it!
