@@ -1,4 +1,6 @@
-Public field
+Class Fields
+
+Public fields
 
 React
 
@@ -36,14 +38,12 @@ class Counter extends React.Component {
 
 GOOD!
 
-Really?
-
-React hooks
+React Hooks?
 
 React class-based
 components is doomed
 
-Still good,
+Still good
 isn't it?
 
 Private field
@@ -99,8 +99,10 @@ class Counter {
 }
 ```
 
+Soft private
+
 ```js
-// reflection!
+// reflection
 c[Object.getOwnPropertySymbols(c)[0]] = 10
 ```
 
@@ -112,8 +114,12 @@ class Counter {
 }
 ```
 
+Hard private
+
 ```js
 class Counter {
+	// Only decorator (still stage 2) can
+	// access the PrivateName (WeakMap)
 	@deco #count = 0
 	get count() { return this.#count }
 	inc() { ++this.#count }
@@ -122,7 +128,7 @@ class Counter {
 
 `#`
 
-WTF!
+Oops...
 
 Inner peace...
 
@@ -151,21 +157,26 @@ Are you OK?
 
 ```js
 class X {
-	#foo
-	#foo() {}
-	get #foo() {}
-	*#foo() {}
-	async *#foo() {}
+	#a
+	#b() {}
+	get #c() {}
+	*#d() {}
+	async *#e() {}
 }
 ```
 
 ```js
 class X {
-	static #foo
-	static #foo() {}
-	static get #foo() {}
-	static *#foo() {}
-	static async *#foo() {}
+	#a
+	#b() {}
+	get #c() {}
+	*#d() {}
+	async *#e() {}
+	static #a
+	static #b() {}
+	static get #c() {}
+	static *#d() {}
+	static async *#e() {}
 }
 ```
 
@@ -180,18 +191,14 @@ it's just ok.
 - `pseudo&nbsp;  _foo this._foo`
 - `private #foo this.#foo`
 
-- public  fields
-- private fields
-
 class fields
 
 Stage 3
 
-Babel 7
-Chrome 72
-node --harmony
-
-- Good part?
-- Bad part?
-
-[Discussion and Poll]()
+- V8 7.4
+- Chrome 74
+- Node 12
+- Firefox 69 (public instance fields)
+- Babel 7
+- Babel 6 (class properties?)
+- TypeScript (public fields?)
