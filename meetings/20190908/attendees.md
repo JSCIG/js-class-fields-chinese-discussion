@@ -15,6 +15,7 @@
 - Radioactive，哔哩哔哩，Node.js架构师
 - 张煜航，哔哩哔哩，TypeScript工程师
 - 谢然 [@xieranmaya](https://github.com/xieranmaya)，大喵教育
+- 刘小杰 [@jacksky007](https://github.com/jacksky007)，毒App
 - newshowing，华为 编程语言实验室
 - 钟大兵，沪江，前端架构师
 - 李天佑，Intel，Principal Engineer，Lead of Intel JavaScript Technology Center
@@ -42,7 +43,6 @@
 - 陈旭 [@rdkmaster](https://github.com/rdkmaster)，中兴通讯
 - 李玉北，字节跳动
 - 晋晓炜 [@amio](https://github.com/amio)，字节跳动
-- 刘小杰 [@jacksky007](https://github.com/jacksky007)
 - 石垚（水歌） [@TechQuery](https://github.com/TechQuery)，[freeCodeCamp成都社区](https://fcc-cd.tk/)负责人，[WebCell 框架](https://web-cell.dev/)作者，微软 MVP
 
 <!--
