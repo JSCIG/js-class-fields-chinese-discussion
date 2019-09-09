@@ -1,38 +1,38 @@
 ## Presenter
 
-- [@hax](https://github.com/hax) 贺师俊, **360**, Senior Front-End Architect, TC member of Web Front-End Branch of 360 Technical Committee, TC39 delegate of 360
+- [@hax](https://github.com/hax) 贺师俊, **360**, Senior Front-end Architect, TC member of Web Front-end Branch of 360 Technical Committee, TC39 delegate of 360
 
 ## Attendees
 
 Alphabetical order by company name
 
-- [@holyjunhui](https://github.com/holyjunhui) 李俊辉, **360**, Web Front-End Engineer
-- [@yuanyan](https://github.com/yuanyan) 元彦, **Alibaba**, TC member of Alibaba Front-End Technical Committee
+- [@holyjunhui](https://github.com/holyjunhui) 李俊辉, **360**, Web Front-end Engineer
+- [@yuanyan](https://github.com/yuanyan) 元彦, **Alibaba**, TC member of Alibaba Front-end Technical Committee
 - [@yusj](https://github.com/yusj) 喻世江, **Alibaba [UCWeb](https://en.wikipedia.org/wiki/UCWeb)**, Browser Engine Developer
-- [@island205](https://github.com/island205) 寸志, **Alibaba [Ele.me](https://en.wikipedia.org/wiki/Ele.me)**, Front-End Architect
-- [@Saviio](https://github.com/Saviio) 王嘉祺, **Alibaba [Teambition](https://www.crunchbase.com/organization/teambition)**, Front-End Team Leader
-- [@Justineo](https://github.com/Justineo) 顾轶灵, **Baidu**, TC member of [Baidu EFE](https://github.com/ecomfe/efe)
+- [@island205](https://github.com/island205) 寸志, **Alibaba [Ele.me](https://en.wikipedia.org/wiki/Ele.me)**, Front-end Architect
+- [@Saviio](https://github.com/Saviio) 王嘉祺, **Alibaba [Teambition](https://www.crunchbase.com/organization/teambition)**, Front-end Team Leader
+- [@Justineo](https://github.com/Justineo) 顾轶灵, **Baidu**, TC member of Baidu Excellent Front-end Technical Committee
 - Radioactive, **[Bilibili](https://en.wikipedia.org/wiki/Bilibili)**, Node.js Architect
 - 张煜航, **Bilibili**, TypeScript Programmer
 - [@xieranmaya](https://github.com/xieranmaya) 谢然, **BigCat Education（大喵教育）**, Educator
 - newshowing, **[Huawei](https://en.wikipedia.org/wiki/Huawei)** Compiler and Programming Language Lab
-- 钟大兵, **[Hujiang](https://www.crunchbase.com/organization/hujiang-com)**, Front-End Architect
+- 钟大兵, **[Hujiang](https://www.crunchbase.com/organization/hujiang-com)**, Front-end Architect
 - 李天佑, **Intel**, Principal Engineer, Lead of Intel JavaScript Technology Center
-- [@kuitos](https://github.com/kuitos) 有知, **[Ant Financial](https://en.wikipedia.org/wiki/Ant_Financial)**, Front-End Expert
-- [@madlordory](https://github.com/madlordory) 张强, **[Meituan-Dianping](https://en.wikipedia.org/wiki/Meituan-Dianping)**, Senior Front-End Architect
+- [@kuitos](https://github.com/kuitos) 有知, **[Ant Financial](https://en.wikipedia.org/wiki/Ant_Financial)**, Front-end Expert
+- [@madlordory](https://github.com/madlordory) 张强, **[Meituan-Dianping](https://en.wikipedia.org/wiki/Meituan-Dianping)**, Senior Front-end Architect
 - [@aimingoo](https://github.com/aimingoo) 周爱民, **[Nanchao (ruff.io)](https://www.crunchbase.com/organization/ruff)**, Architect, Tech VP, Author of [JavaScript语言精髓与编程实践](https://book.douban.com/subject/10542576/)
 - [@Becavalier](https://github.com/Becavalier) 于航, **Paypal**, **[freeCodeCamp Shanghai](https://freecodecamp-shanghai.github.io)** Organizer
-- [@ufoqhmdt](https://github.com/ufoqhmdt) 谯洪敏, **[Qutoutiao](https://en.wikipedia.org/wiki/Qutoutiao)**, Platform Runtime Team Leader, Chair of Qutoutiao Front-End Union
-- 陈小白, **Qutoutiao**, Mengtuiapp Front-End Team Leader
-- 戴文俊, **Qutoutiao**, Front-End Engineer
-- [@Jocs](https://github.com/Jocs) 罗冉, **[Shimo Docs](https://www.crunchbase.com/organization/shimo-docs)**, Front-End Engineer, Author of [Mark Text](https://github.com/marktext/marktext)
+- [@ufoqhmdt](https://github.com/ufoqhmdt) 谯洪敏, **[Qutoutiao](https://en.wikipedia.org/wiki/Qutoutiao)**, Platform Runtime Team Leader, Chair of Qutoutiao Front-end Union
+- 陈小白, **Qutoutiao**, Mengtuiapp Front-end Team Leader
+- 戴文俊, **Qutoutiao**, Front-end Engineer
+- [@Jocs](https://github.com/Jocs) 罗冉, **[Shimo Docs](https://www.crunchbase.com/organization/shimo-docs)**, Front-end Engineer, Author of [Mark Text](https://github.com/marktext/marktext)
 - 马晓东（kacakong）, **Tencent**
 - [@louiszhai](https://github.com/louiszhai) 翟灿东, **Tencent**
 - [@kingbird](https://github.com/kingbird) Webb, **Tencent**
 - seedsave（寅午）, **Tencent**
 - 亢中翼（Clement）, **Tencent**
-- [@trotyl](https://github.com/trotyl) 余泽江, **[ThoughtWorks](https://en.wikipedia.org/wiki/ThoughtWorks)**, Front-End Engineer, Active contributor of Angular
-- 陈天宇, **ThoughtWorks**, Front-End Engineer
+- [@trotyl](https://github.com/trotyl) 余泽江, **[ThoughtWorks](https://en.wikipedia.org/wiki/ThoughtWorks)**, Front-end Engineer, Active contributor of Angular
+- 陈天宇, **ThoughtWorks**, Front-end Engineer
 - [@Maxwin-z](https://github.com/Maxwin-z) 文东, **[Tuhu](https://www.crunchbase.com/organization/tuhu)**, Tech Director
 - [@xeodou](https://github.com/xeodou) 青蛙, **[Udacity](https://en.wikipedia.org/wiki/Udacity)**, Senior Engineer
 - [@makara](https://github.com/makara) 王浩宇, **[Wiredcraft](https://www.crunchbase.com/organization/wiredcraft)**, Tech Lead, **[JSConf China](https://jsconfchina.com)** Organizer
