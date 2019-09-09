@@ -9,7 +9,7 @@
 - 李俊辉 [@holyjunhui](https://github.com/holyjunhui)，360，前端工程师
 - 元彦 [@yuanyan](https://github.com/yuanyan)，阿里 淘宝
 - 喻世江 [@yusj](https://github.com/yusj)，阿里 UC，浏览器内核研发工程师
-- 寸志 [@island205](https://github.com/island205)，阿里 饿了么，前端架构师
+- 寸志 [@island205](https://github.com/island205)，阿里 饿了么，前端专家
 - 王嘉祺 [@Saviio](https://github.com/Saviio)，阿里 Teambition，前端负责人
 - 顾轶灵 [@Justineo](https://github.com/Justineo)，百度，前端工程师，[百度EFE](https://github.com/ecomfe/efe) TC委员
 - Radioactive，哔哩哔哩，Node.js架构师

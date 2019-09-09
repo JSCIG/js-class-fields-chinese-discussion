@@ -9,7 +9,7 @@ Alphabetical order by company name
 - [@holyjunhui](https://github.com/holyjunhui) 李俊辉, **360**, Web Front-end Engineer
 - [@yuanyan](https://github.com/yuanyan) 元彦, **[Alibaba](https://en.wikipedia.org/wiki/Alibaba_Group)**, TC member of Alibaba Front-end Technical Committee
 - [@yusj](https://github.com/yusj) 喻世江, **Alibaba [UCWeb](https://en.wikipedia.org/wiki/UCWeb)**, Browser Engine Developer
-- [@island205](https://github.com/island205) 寸志, **Alibaba [Ele.me](https://en.wikipedia.org/wiki/Ele.me)**, Front-end Architect
+- [@island205](https://github.com/island205) 寸志, **Alibaba [Ele.me](https://en.wikipedia.org/wiki/Ele.me)**, Front-end Expert
 - [@Saviio](https://github.com/Saviio) 王嘉祺, **Alibaba [Teambition](https://www.crunchbase.com/organization/teambition)**, Front-end Team Leader
 - [@kuitos](https://github.com/kuitos) 有知, **[Ant Financial](https://en.wikipedia.org/wiki/Ant_Financial)**, Front-end Expert
 - [@Justineo](https://github.com/Justineo) 顾轶灵, **[Baidu](https://en.wikipedia.org/wiki/Baidu)**, TC member of Baidu Excellent Front-end Technical Committee
