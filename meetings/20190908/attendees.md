@@ -27,9 +27,9 @@
 - 戴文俊，趣头条，前端工程师
 - 罗冉 [@Jocs](https://github.com/Jocs)，石墨文档，前端工程师，开源软件 [Mark Text](https://github.com/marktext/marktext) 作者
 - 马晓东（kacakong），腾讯
-- 翟灿东 [@louiszhai](https://github.com/louiszhai)，腾讯
-- Webb [@kingbird](https://github.com/kingbird)，腾讯
-- seedsave（寅午），腾讯
+- 翟灿东（[@louiszhai](https://github.com/louiszhai)），腾讯
+- Webb（[@kingbird](https://github.com/kingbird)），腾讯
+- Eric（寅午）（[@EricTiger](https://github.com/EricTiger)），腾讯
 - 亢中翼（Clement），腾讯
 - 余泽江 [@trotyl](https://github.com/trotyl)，ThoughtWorks，前端工程师，Angular 活跃贡献者
 - 陈天宇，ThoughtWorks，前端工程师
