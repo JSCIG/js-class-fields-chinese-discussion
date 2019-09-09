@@ -11,14 +11,15 @@ Alphabetical order by company name
 - [@yusj](https://github.com/yusj) 喻世江, **Alibaba [UCWeb](https://en.wikipedia.org/wiki/UCWeb)**, Browser Engine Developer
 - [@island205](https://github.com/island205) 寸志, **Alibaba [Ele.me](https://en.wikipedia.org/wiki/Ele.me)**, Front-end Architect
 - [@Saviio](https://github.com/Saviio) 王嘉祺, **Alibaba [Teambition](https://www.crunchbase.com/organization/teambition)**, Front-end Team Leader
+- [@kuitos](https://github.com/kuitos) 有知, **[Ant Financial](https://en.wikipedia.org/wiki/Ant_Financial)**, Front-end Expert
 - [@Justineo](https://github.com/Justineo) 顾轶灵, **Baidu**, TC member of Baidu Excellent Front-end Technical Committee
 - Radioactive, **[Bilibili](https://en.wikipedia.org/wiki/Bilibili)**, Node.js Architect
 - 张煜航, **Bilibili**, TypeScript Programmer
-- [@xieranmaya](https://github.com/xieranmaya) 谢然, **BigCat Education（大喵教育）**, Educator
+- 李玉北, **[ByteDance](https://en.wikipedia.org/wiki/ByteDance)**
+- [@amio](https://github.com/amio) 晋晓炜, **ByteDance**
 - newshowing, **[Huawei](https://en.wikipedia.org/wiki/Huawei)** Compiler and Programming Language Lab
 - 钟大兵, **[Hujiang](https://www.crunchbase.com/organization/hujiang-com)**, Front-end Architect
 - 李天佑, **Intel**, Principal Engineer, Lead of Intel JavaScript Technology Center
-- [@kuitos](https://github.com/kuitos) 有知, **[Ant Financial](https://en.wikipedia.org/wiki/Ant_Financial)**, Front-end Expert
 - [@madlordory](https://github.com/madlordory) 张强, **[Meituan-Dianping](https://en.wikipedia.org/wiki/Meituan-Dianping)**, Senior Front-end Architect
 - [@aimingoo](https://github.com/aimingoo) 周爱民, **[Nanchao (ruff.io)](https://www.crunchbase.com/organization/ruff)**, Architect, Tech VP, Author of [JavaScript语言精髓与编程实践](https://book.douban.com/subject/10542576/)
 - [@Becavalier](https://github.com/Becavalier) 于航, **Paypal**, **[freeCodeCamp Shanghai](https://freecodecamp-shanghai.github.io)** Organizer
@@ -37,10 +38,9 @@ Alphabetical order by company name
 - [@xeodou](https://github.com/xeodou) 青蛙, **[Udacity](https://en.wikipedia.org/wiki/Udacity)**, Senior Engineer
 - [@makara](https://github.com/makara) 王浩宇, **[Wiredcraft](https://www.crunchbase.com/organization/wiredcraft)**, Tech Lead, **[JSConf China](https://jsconfchina.com)** Organizer
 - 魏晓军, **[Ctrip](https://en.wikipedia.org/wiki/Ctrip)**, Senior R&D Manager
-- [@zhangxinxu](https://github.com/zhangxinxu) 张鑫旭, **[China Literature](https://www.crunchbase.com/organization/china-literature)**
-- [@Smadey](https://github.com/smadey) 张成荣, **China Literature**
+- [@zhangxinxu](https://github.com/zhangxinxu) 张鑫旭, **[Yuewen (China Literature)](https://www.crunchbase.com/organization/china-literature)**
+- [@Smadey](https://github.com/smadey) 张成荣, **Yuewen (China Literature)**
 - [@rdkmaster](https://github.com/rdkmaster) 陈旭, **[ZTE](https://en.wikipedia.org/wiki/ZTE)**
-- 李玉北, **[ByteDance](https://en.wikipedia.org/wiki/ByteDance)**
-- [@amio](https://github.com/amio) 晋晓炜, **ByteDance**
-- [@jacksky007](https://github.com/jacksky007) 刘小杰
+- [@xieranmaya](https://github.com/xieranmaya) 谢然, Educator
 - [@TechQuery](https://github.com/TechQuery) 石垚（水歌）, **[freeCodeCamp Chengdu](https://fcc-cd.tk/)** Organizer, Author of [WebCell Framework](https://web-cell.dev/), Microsoft MVP
+- [@jacksky007](https://github.com/jacksky007) 刘小杰
