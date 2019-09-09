@@ -28,7 +28,7 @@
 - 马晓东（kacakong），腾讯
 - 翟灿东（[@louiszhai](https://github.com/louiszhai)），腾讯
 - Webb（[@kingbird](https://github.com/kingbird)），腾讯
-- seedsave，腾讯
+- Eric（[@EricTiger](https://github.com/EricTiger)），腾讯
 - 亢中翼（Clement），腾讯
 - 余泽江（[@trotyl](https://github.com/trotyl)），ThoughtWorks，前端工程师，Angular 活跃贡献者
 - 陈天宇（），ThoughtWorks，前端工程师
