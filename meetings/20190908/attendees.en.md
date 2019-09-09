@@ -31,7 +31,7 @@ Alphabetical order by company name
 - 马晓东（kacakong）, **[Tencent](https://en.wikipedia.org/wiki/Tencent)**
 - [@louiszhai](https://github.com/louiszhai) 翟灿东, **Tencent**
 - [@kingbird](https://github.com/kingbird) Webb, **Tencent**
-- seedsave（寅午）, **Tencent**
+- [@EricTiger](https://github.com/EricTiger) Eric（寅午）, **Tencent**
 - 亢中翼（Clement）, **Tencent**
 - [@trotyl](https://github.com/trotyl) 余泽江, **[ThoughtWorks](https://en.wikipedia.org/wiki/ThoughtWorks)**, Front-end Engineer, Active contributor of Angular
 - 陈天宇, **ThoughtWorks**, Front-end Engineer
