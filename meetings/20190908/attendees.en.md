@@ -14,10 +14,10 @@ Alphabetical order by company name
 - [@kuitos](https://github.com/kuitos) 有知, **[Ant Financial](https://en.wikipedia.org/wiki/Ant_Financial)**, Front-end Expert
 - [@Justineo](https://github.com/Justineo) 顾轶灵, **[Baidu](https://en.wikipedia.org/wiki/Baidu)**, TC member of Baidu Excellent Front-end Technical Committee
 - Radioactive, **[Bilibili](https://en.wikipedia.org/wiki/Bilibili)**, Node.js Architect
-- 张煜航, **Bilibili**, TypeScript Programmer
-- 李玉北, **[ByteDance](https://en.wikipedia.org/wiki/ByteDance)**
-- [@amio](https://github.com/amio) 晋晓炜, **ByteDance**
-- newshowing, **[Huawei](https://en.wikipedia.org/wiki/Huawei)** Compiler and Programming Language Lab
+- 张煜航, **Bilibili**, TypeScript Evangelist
+- 李玉北, **[ByteDance](https://en.wikipedia.org/wiki/ByteDance)**, Team Leader
+- [@amio](https://github.com/amio) 晋晓炜, **ByteDance**, Senior Engineer
+- 刘晓莹, **[Huawei](https://en.wikipedia.org/wiki/Huawei)** Compiler and Programming Language Lab
 - 钟大兵, **[Hujiang](https://www.crunchbase.com/organization/hujiang-com)**, Front-end Architect
 - 李天佑, **[Intel](https://en.wikipedia.org/wiki/Intel)**, Principal Engineer, Lead of Intel JavaScript Technology Center
 - [@madlordory](https://github.com/madlordory) 张强, **[Meituan-Dianping](https://en.wikipedia.org/wiki/Meituan-Dianping)**, Senior Front-end Architect
@@ -41,6 +41,6 @@ Alphabetical order by company name
 - 魏晓军, **[Ctrip](https://en.wikipedia.org/wiki/Ctrip)**, Senior R&D Manager
 - [@zhangxinxu](https://github.com/zhangxinxu) 张鑫旭, **[Yuewen (China Literature)](https://www.crunchbase.com/organization/china-literature)**
 - [@Smadey](https://github.com/smadey) 张成荣, **Yuewen (China Literature)**
-- [@rdkmaster](https://github.com/rdkmaster) 陈旭, **[ZTE](https://en.wikipedia.org/wiki/ZTE)**
+- [@rdkmaster](https://github.com/rdkmaster) 陈旭, **[ZTE](https://en.wikipedia.org/wiki/ZTE)**, Tech Lead of ZTE Front-end Technical Committee
 - [@TechQuery](https://github.com/TechQuery) 石垚（水歌）, **[freeCodeCamp Chengdu](https://fcc-cd.tk/)** Organizer, Author of [WebCell Framework](https://web-cell.dev/), Microsoft MVP
 - [@xieranmaya](https://github.com/xieranmaya) 谢然, Educator

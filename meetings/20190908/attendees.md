@@ -16,7 +16,7 @@
 - 张煜航，哔哩哔哩，TypeScript工程师
 - [@xieranmaya](https://github.com/xieranmaya) 谢然，大喵教育
 - [@jacksky007](https://github.com/jacksky007) 刘小杰，毒App
-- newshowing，华为 编程语言实验室
+- 刘晓莹（newshowing），华为 编程语言实验室
 - 钟大兵，沪江，前端架构师
 - 李天佑，Intel，Principal Engineer，Lead of Intel JavaScript Technology Center
 - [@kuitos](https://github.com/kuitos) 有知，蚂蚁金服，前端技术专家
