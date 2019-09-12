@@ -46,10 +46,12 @@ New ESLint rule:
 
 - Disallow `this.#foo` in static methods
 - Disallow `this.constructor.#foo` in instance methods
-- Disallow `class.#foo` in all methods?
+- Enforce `class.#foo` in all methods (but only stage 1 now)
 
 
 Simple way
 
 Use symbol-based semantic
 instead of weakmap-based
+
+See comparison of different private solutions

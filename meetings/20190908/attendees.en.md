@@ -15,8 +15,8 @@ Alphabetical order by company name
 - [@Justineo](https://github.com/Justineo) 顾轶灵, **[Baidu](https://en.wikipedia.org/wiki/Baidu)**, TC member of Baidu Excellent Front-end Technical Committee
 - Radioactive, **[Bilibili](https://en.wikipedia.org/wiki/Bilibili)**, Node.js Architect
 - 张煜航, **Bilibili**, TypeScript Evangelist
-- 李玉北, **[ByteDance](https://en.wikipedia.org/wiki/ByteDance)**, Team Leader
-- [@amio](https://github.com/amio) 晋晓炜, **ByteDance**, Senior Engineer
+- 李玉北, **[ByteDance](https://en.wikipedia.org/wiki/ByteDance)**, Front-end Team Leader
+- [@amio](https://github.com/amio) 晋晓炜, **ByteDance**, Front-end Senior Engineer
 - 刘晓莹, **[Huawei](https://en.wikipedia.org/wiki/Huawei)** Compiler and Programming Language Lab
 - 钟大兵, **[Hujiang](https://www.crunchbase.com/organization/hujiang-com)**, Front-end Architect
 - 李天佑, **[Intel](https://en.wikipedia.org/wiki/Intel)**, Principal Engineer, Lead of Intel JavaScript Technology Center

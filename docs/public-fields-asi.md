@@ -173,3 +173,22 @@ class Test {
 Transfer the cost
 from committee (100)
 to community (1,000,000)
+
+
+<!--
+一定要保持只要看第一个符号的核心优势，规则需要演化为：
+
+如果第一个符号是
+([`
++-*/
+前置分号
+
+不用以下作为field名
+in
+instanceof
+set
+get
+static
+
+无解！
+-->
